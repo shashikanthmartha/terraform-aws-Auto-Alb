@@ -33,11 +33,7 @@ variable "vpc_id" {
   type        = string
   
 }
-variable "aws_acm_certificate_cert_arn" {
-  description = "The ARN of the ACM certificate to use for the ALB"
-  type        = string  
-  
-}
+
 
 variable "user_data" {
   description = "The user data to use for the launch template"
